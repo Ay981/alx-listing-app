@@ -1,40 +1,67 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# ALX Listing App
+
+## Project Overview
+
+**ALX Listing App** is an Airbnb clone listing page built with Next.js, TypeScript, and Tailwind CSS. The goal of this project is to create a modern, responsive, and maintainable web application that displays property listings in a user-friendly interface, following best practices in React development.
+
+## Project Structure
+
+- **components/**  
+  Contains all reusable React components.  
+  - **common/**: Shared UI components such as `Button` and `Card` used throughout the app.
+
+- **interfaces/**  
+  Contains TypeScript interfaces and types for props and data models, ensuring type safety across the project.
+
+- **constants/**  
+  Stores reusable constants such as API URLs, configuration settings, and static UI text.
+
+- **public/assets/**  
+  Contains static assets like images and SVGs used in the UI, organized for easy access.
+
+- **pages/**  
+  Next.js Pages Router directory for defining routes and rendering pages.
+
+- **styles/**  
+  Contains global and component-specific CSS files, including Tailwind CSS configuration.
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Node.js (v18 or higher recommended)
+- npm (v9 or higher recommended)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Installation
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/your-username/alx-listing-app.git
+   cd alx-listing-app
+   ```
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+3. **Run the development server:**
+   ```bash
+   npm run dev
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. **Open your browser and visit:**
+   ```
+   http://localhost:3000
+   ```
 
-## Learn More
+## Project Goals
 
-To learn more about Next.js, take a look at the following resources:
+- Recreate the Airbnb listing page UI with reusable components.
+- Use TypeScript for type safety and maintainability.
+- Apply Tailwind CSS for rapid and consistent styling.
+- Organize code for scalability and ease of collaboration.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+Feel free to contribute or customize the project for your needs. Happy coding!

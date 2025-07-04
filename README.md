@@ -36,7 +36,7 @@
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/alx-listing-app.git
+   git clone https://github.com/ay981/alx-listing-app.git
    cd alx-listing-app
    ```
 
